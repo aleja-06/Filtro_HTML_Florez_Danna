@@ -1,0 +1,434 @@
+@font-face {
+    font-family: RegularMy;
+    src: url(Fonts/Myriad\ Pro\ Regular.ttf);
+}
+
+@font-face {
+    font-family: LightMy;
+    src: url(Fonts/Myriad\ Pro\ Light.otf);
+}
+
+
+body{
+    background-color: rgb(216, 145, 216);
+}
+
+.cuadro1{
+    border: 1% solid gray;
+    border-radius: 1em;
+    width: 20vw;
+    height: 95vh;
+    display: flex;
+    background-color: rgb(193, 193, 238);
+    position: absolute;
+    top: 2.5%;
+    left: 2%;
+}
+
+#texto{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    font-family: RegularMy;
+    font-size: 2.0em;
+    left: 20%;
+}
+
+#imagen{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 2.5vw;
+    height: 2.5vw;
+    left: 70%;
+    top: 3%;
+}
+
+#imagen1{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 3vw;
+    height: 3vw;
+    top: 20%;
+    left: 15%;
+    border-radius: 1em;
+}
+
+#texto1{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    font-family: lightMy;
+    font-size: 1.5em;
+    top: 19%;
+    left: 35%;
+}
+
+#imagen2{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 3vw;
+    height: 3vw;
+    top: 40%;
+    border-radius: 1em;
+    left: 15%;
+}
+
+#texto2{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    font-family: LightMy;
+    top: 39%;
+    left: 35%;
+    font-size: 1.5em;
+
+}
+#imagen3{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 3vw;
+    height: 3vw;
+    top: 60%;
+    border-radius: 1em;
+    left: 15%;
+}
+
+#texto3{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    top: 59%;
+    left: 35%;
+    font-family: LightMy;
+    font-size: 1.5em;
+}
+
+#imagen4{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 3vw;
+    height: 3vw;
+    border-radius: 1em;
+    top: 80%;
+    left: 15%;
+}
+
+#texto4{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    top: 80%;
+    left: 35%;
+    font-family: LightMy;
+    font-size: 1.5em;
+
+}
+.cuadro2{
+    border: 1% solid gray;
+    border-radius: 1em;
+    width: 65vw;
+    height: 75vh;
+    display: flex;
+    background-color: rgb(193, 193, 238);
+    top: 13%;
+    left: 30%;
+    justify-content: center;
+    position: absolute;
+    overflow: auto;
+
+}
+
+#text{
+    font-family: RegularMy;
+    text-align: center;
+    font-size: 1.3em;
+}
+
+#text1{
+    font-family: RegularMy;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 7%;
+    left: 2%;
+    font-size: 1.2em;
+
+}
+
+
+#img1{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10vw;
+    height: 20vh;
+    top: 15%;
+    left: 2%;
+    border-radius: 1em;
+}
+
+#img2{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10vw;
+    height: 20vh;
+    top: 15%;
+    left: 26%;
+    border-radius: 1em;
+}
+
+#img3{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10vw;
+    height: 20vh;
+    top: 15%;
+    left: 54%;
+    border-radius: 1em;
+}
+
+#img4{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10vw;
+    height: 20vh;
+    top: 15%;
+    left: 80%;
+    border-radius: 1em;
+}
+
+#img5{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10vw;
+    height: 20vh;
+    top: 60%;
+    left: 2%;
+    border-radius: 1em;
+}
+
+#text2{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 110%;
+    left: 2%;
+    font-family: RegularMy;
+    font-size: 1.2em;
+
+}
+
+#img6{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10vw;
+    height: 20vh;
+    top: 120%;
+    left: 2%;
+    border-radius: 1em;
+}
+
+#img7{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10vw;
+    height: 20vh;
+    top: 120%;
+    left: 26%;
+    border-radius: 1em;
+}
+
+#img8{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10vw;
+    height: 20vh;
+    top: 120%;
+    left: 54%;
+    border-radius: 1em;
+}
+
+#img9{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10vw;
+    height: 20vh;
+    top: 120%;
+    left: 80%;
+    border-radius: 1em;
+}
+
+#img10{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10vw;
+    height: 20vh;
+    top: 165%;
+    left: 2%;
+    border-radius: 1em;
+}
+
+#text3{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    top: 210%;
+    left: 2%;
+    font-family: RegularMy;
+    font-size: 1.2em;
+}
+
+#img11{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10vw;
+    height: 20vh;
+    top: 220%;
+    left: 2%;
+    border-radius: 1em;
+}
+
+#img12{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10vw;
+    height: 20vh;
+    top: 220%;
+    left: 26%;
+    border-radius: 1em;
+}
+
+#img13{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10vw;
+    height: 20vh;
+    top: 220%;
+    left: 54%;
+    border-radius: 1em;
+}
+
+#img14{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10vw;
+    height: 20vh;
+    top: 220%;
+    left: 80%;
+    border-radius: 1em;
+}
+
+#img15{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10vw;
+    height: 20vh;
+    top: 270%;
+    left: 2%;
+    border-radius: 1em;
+}
+
+#texto5{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    top: 95%;
+    left: 30%;
+    font-size: 0.8em;
+}
+
+.rectangle1{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    border: 1% solid gray;
+    border-radius: 1em;
+    background-color: aliceblue;
+    width: 60vw;
+    height: 7vw;
+    top: 10%;
+}
+#imgcarrito{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 2vw;
+    height: 2vw;
+    top: 50%;
+}
+
+.rectangle2{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    border: 1% solid gray;
+    border-radius: 1em;
+    background-color: aliceblue;
+    width: 60vw;
+    height: 7vw;
+    top: 40%;
+}
+
+#imgcarrito1{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 2vw;
+    height: 2vw;
+    top: 50%;
+}
+
+.rectangle3{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    border: 1% solid gray;
+    border-radius: 1em;
+    background-color: aliceblue;
+    width: 60vw;
+    height: 7vw;
+    top: 70%;
+}
+
+#imgcarrito2{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 2vw;
+    height: 2vw;
+    top: 50%;
+}
