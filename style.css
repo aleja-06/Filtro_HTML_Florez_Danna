@@ -386,9 +386,10 @@ body{
     position: absolute;
     display: flex;
     justify-content: center;
-    width: 2vw;
-    height: 2vw;
-    top: 50%;
+    width: 3vw;
+    height: 3vw;
+    top: 30%;
+    left: 5%;
 }
 
 .rectangle2{
@@ -407,9 +408,10 @@ body{
     position: absolute;
     display: flex;
     justify-content: center;
-    width: 2vw;
-    height: 2vw;
-    top: 50%;
+    width: 3vw;
+    height: 3vw;
+    top: 30%;
+    left: 5%;
 }
 
 .rectangle3{
@@ -428,7 +430,8 @@ body{
     position: absolute;
     display: flex;
     justify-content: center;
-    width: 2vw;
-    height: 2vw;
-    top: 50%;
+    width: 3vw;
+    height: 3vw;
+    top: 30%;
+    left: 5%;
 }
